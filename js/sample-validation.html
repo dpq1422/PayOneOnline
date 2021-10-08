@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<script type="text/javascript" src="admin-validation-functions.js"></script>
+		<script type="text/javascript" src="admin-validations-applied.js"></script>
+	</head>	
+	<body>
+		<form action="#" method="post" onsubmit="return validateSample()">
+			<table>
+				<tr>
+					<td height="35" width="100">Name</td>
+					<td width="200"><input type="text" required id="Name" name="Name" size="25"/></td>
+				</tr>
+				<tr>
+					<td height="35">Email</td>
+					<td><input type="email" id="Email" required name="Email" size="25"/></td>
+				</tr>
+				<tr>
+					<td height="35">Phone</td>
+					<td><input type="number" id="Phone" required name="Phone" size="25"/></td>
+				</tr>
+				<tr>
+					<td height="50"></td>
+					<td><input type="submit" /></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

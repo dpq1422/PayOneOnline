@@ -1,0 +1,24 @@
+<?php
+	if(!isset($_SESSION))
+	{
+		session_start();
+	}	
+	if(!isset($_SESSION['super_user_id']))
+	{
+		$user_id="";
+		$user_type="";
+		$user_types="";
+		$user_name="";
+		$log_id="";
+		header('location:login.php');
+	}
+	else
+	{
+		include('functions/_ShowUserTypeName.php');
+		$user_id=$_SESSION['super_user_id'];
+		$user_type=$_SESSION['super_user_type'];
+		$user_name=$_SESSION['super_user_name'];
+		$log_id=$_SESSION['log_id'];
+		$user_types=show_user_type_name($user_type);
+	}
+?>
