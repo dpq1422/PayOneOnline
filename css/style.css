@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+html, body{ height:100%; font-family: 'Roboto', sans-serif;}
+*{ padding:0px; margin:0px;}
+ul,li{ list-style:none;}
+a{ text-decoration:none; }
+
+/*my css*/
+.my-center{ max-width:1200px; margin:0 auto;}
+.wh{ width:100%;}
+p{ font-size:15px; font-family: 'Roboto', sans-serif; font-size:16px; line-height:30px;}
+h1, h2, h3, h4, h5, h6{ font-family: 'Roboto', sans-serif;}
+/*my css*/
+
+/*home css start*/
+.header{ padding:5px 0px;}
+.menu ul{ width:100%; float:left; z-index:9;}
+.menu ul li{ float:left; position:relative;}
+.menu ul li a{ display:block; padding:20px; font-size:16px; color:#252525;}
+.menu ul li:hover > a{ color:#ff5722;}
+.menu ul li:last-child a{ padding-right:0px;}
+.drop-menu{ display:none; position:absolute; width:250px !important;}
+.drop-menu li{ width:100%; float:left;}
+.drop-menu li a{ padding:10px 20px !important;}
+.menu ul li:hover > .drop-menu{ display:block;}
+.menu-icon{ font-size:28px; color:#252525; margin:-57px 0 0 0; display:none;}
+/*home css end*/
+
+/*money trans css start*/
+.inner-banner h2{ margin-top:70px;}
+.money-bg{ background:url(../img/money-bg.jpg) no-repeat top center; height:200px; background-size:cover;}
+.left-menu ul{ width:100%; float:left;}
+.left-menu li{ width:100%; float:left; margin-bottom:1px; position:relative; overflow:hidden;}
+.left-menu li a{ display:block; padding:10px; border-left:6px solid #fbc02d; font-size:16px; color:#252525; font-weight:500;}
+.left-menu li:hover a{ background:#fbc02d; color:#fff; border-left:6px solid #fbc02d !important; cursor:pointer;}
+.left-menu li a:after{ content:''; width:32px; height:32px; position:absolute; top:6px; right:-16px; background:#fff; transform:rotate(45deg);}
+.active-arrow{ background:#ff5722; color:#fff !important; border-left:6px solid #ff5722 !important;}
+.right-contact h2{ margin:0px;}
+.money-feature ul{ width:100%; float:left;}
+.money-feature ul li{ width:100%; float:left; margin:3px 0; position:relative; padding-left:26px;}
+.money-feature ul li:before{ content:''; width:12px; height:4px; position:absolute; top:13px; left:0px; background:#606060;}
+.w3-pad{padding:15px;}
+/*money trans css end*/
+
+/*join css start*/
+.join-bg{background:url(../img/join-bg.jpg) no-repeat top center; height:200px; background-size:cover;}
+.join-us{ box-shadow:0 0 20px 0 #CCC;}
+.join-form form{ width:100%; float:left;}
+.join-form form ul{ width:100%; float:left;}
+.join-form form ul li{ width:100%; float:left;}
+.join-form form ul li{ width:100%; float:left; margin-bottom:15px;}
+.captcha input[type="text"]{ float:left; width:50% !important;}
+.captcha span{ float:left; font-size:28px; font-style:italic; margin-left:15%;}
+/*join css end*/
+
+/*contact css start*/
+.contact-bg{ background:url(../img/contact-bg.jpg) no-repeat top center; height:200px; background-size:cover;}
+.contact-txt ul{ width:100%; float:left;}
+.contact-txt ul li{ width:100%; float:left; margin-top:20px;}
+.contact-txt ul li h4{ color:#023141; margin:0px;}
+.contact-txt ul li p{ color:#6a6a6a; font-weight:300;}
+.contact-txt-address{ width:45%;}
+.contact-txt-map{ width:45%;}
+/*contact css end*/
+
+/*footer css start*/
+.footer{ padding:10px 0;}
+.footer p{ font-size:14px;}
+/*footer css end*/
+
+
+
+@media only screen and (max-width:1200px){}
+@media only screen and (max-width:992px){
+	.menu, .menu ul li{ width:100%;}
+	.menu-show{ display:none;}
+	.menu ul li a{ padding:15px 0;}
+	.drop-menu{ position:inherit; width:100% !important;}
+	.menu-icon, .shown{ display:block !important;}
+	.banner-txt{ display:none;}
+	.join-us{ box-shadow:none;}
+}
+@media only screen and (max-width:600px){}

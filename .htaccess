@@ -1,0 +1,42 @@
+RewriteEngine On
+
+# add www
+#RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+# remove www
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)$ http://%1%{REQUEST_URI} [R=301,QSA,NC,L]
+
+# add https
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# remove https
+RewriteEngine On
+RewriteCond %{HTTPS} on
+RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI}
+
+# add https on domain not on sub-domain
+#RewriteCond %{HTTP_HOST} !demo\.payoneonline\.com$ [NC]
+#RewriteCond %{HTTPS} !on
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+ErrorDocument 404 http://payoneonline.com/
+ErrorDocument 403 http://payoneonline.com/
+
+# remove extension of webpage
+#<IfModule mod_rewrite.c>
+#RewriteEngine on
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME}.* -f
+#RewriteRule ^(.*)$ $1.*
+#
+#RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\ (.*)\.php [NC]
+#RewriteRule ^ %1 [R=301,L]
+#RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\ (.*)\.html [NC]
+#RewriteRule ^ %1 [R=301,L]
+#</IfModule>
