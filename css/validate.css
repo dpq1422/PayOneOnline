@@ -1,0 +1,363 @@
+﻿.ErrorTextBox, .TextBox
+{
+    background: #fde6e1;
+    border: solid 1px #ff6666;
+    width: 35;
+}
+.popupclse
+{
+    float: right;
+    margin-top: 7px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.ErrorTextBox
+{
+    border-color: red;
+    background: #fde6e1;
+    border: solid 1px #ff6666;
+}
+.gridview
+{
+    background-color: #fff;
+    padding: 2px;
+    margin: 2% auto;
+}
+
+.gridview a
+{
+    margin: auto 1%;
+    background-color: #E1E1E1;
+    padding: 5px 10px;
+    text-decoration: none;
+    box-shadow: 1px 1px 1px #E1E1E1;
+}
+
+.gridview td table tr td
+{
+    background-color: #fff;
+    padding: 1px;
+    margin: 2% auto;
+}
+.gridview td
+{
+    background-color: #f5f4f4;
+}
+.gridview a:hover
+{
+    background-color: #534E4E;
+    color: #fff;
+}
+
+.gridview span
+{
+    background-color: #C3B7B7;
+    padding: 5px 10px;
+}
+.iconwidth
+{
+    width: 13%;
+}
+.popupelelment
+{
+    z-index: 100006;
+    left: 98.5px;
+    position: fixed;
+    background-color: #FFF;
+    right: 67px; /* overflow-y: scroll;*/
+    line-height: 2.5;
+    bottom: 2px;
+    top: 54px;
+}
+.divmd1
+{
+    padding: 0px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #FF0606;
+    text-align: center;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    width: 20px;
+}
+
+.divmd11
+{
+    padding: 0px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #FF0606;
+    text-align: center;
+    border-radius: 4px;
+    width: 20px;
+}
+
+.divmd2
+{
+    padding: 0px 0px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1;
+    color: #FF0606;
+    text-align: center;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    width: 20px;
+}
+.divbackclor
+{
+    background-color: #F0EAEA;
+    border: 1px solid #EAE4E4;
+    top: 0px;
+}
+.divborder
+{
+    padding-left: 0px;
+    top: -10px;
+}
+
+.divborder1
+{
+    border: 1px solid #000000;
+}
+.divpadding
+{
+    padding-left: 2px;
+}
+
+.rowdesign
+{
+    min-height: 60px;
+    border: 1px solid #D5D0D1;
+    background: #FFFFFF;
+    margin-top: -7px;
+    margin-bottom: -9px;
+}
+
+@media (max-width: 991px) and (min-width :100px)
+{
+    .rowdesign
+    {
+        min-height: 70px;
+        border: 1px solid #D5D0D1;
+        background: #FFFFFF;
+        margin-top: -7px;
+        margin-bottom: -9px;
+    }
+}
+.rowdesign:hover
+{
+    cursor: pointer;
+    background: #DFD8D8;
+}
+.divrow
+{
+    min-height: 60px;
+}
+.divrow:hover
+{
+    cursor: pointer;
+    /*background: #DFD8D8;*/
+}
+.rowadjus
+{
+    top: 8px;
+    left: -13px;
+}
+
+.btnadjus
+{
+    padding-top: 5px;
+}
+.customcollapse
+{
+    border: 1px solid #6D696A;
+    line-height: 3.0;
+}
+.collapsepadding
+{
+    adding-left: 0px;
+    padding-right: 0px;
+    top: 10px;
+    bottom: -12px;
+    margin-top: 0px;
+    margin-bottom: 17px;
+    line-height: 1.2;
+}
+
+
+.collapsepadding_inner
+{
+    padding-left: 0px;
+    padding-right: 15px;
+    top: 18px;
+}
+.lblleftfloat
+{
+    float: left;
+    color: rgb(44, 110, 63);
+}
+.lblrightfloat
+{
+    float: right;
+}
+
+
+
+/*pbKYCVerify2.aspx*/
+.tableBackground
+{
+    background-color: silver;
+    opacity: 0.7;
+}
+
+@media (max-width: 1370px) and (min-width:1060px)
+{
+    .popupelelment
+    {
+        z-index: 100006;
+        left: 218.5px;
+        position: fixed;
+        background-color: white;
+        right: 234px;
+        top: 50px;
+        max-height: 603px; /*   bottom: -156px; overflow-y: scroll;*/
+        line-height: 2.428571;
+    }
+}
+
+
+@media (max-width: 1060px) and (min-width:24px)
+{
+    .popupelelment
+    {
+        z-index: 100006; /*left: 0px;*/
+        position: fixed;
+        background-color: white;
+        right: 0pxpx;
+        top: -9px;
+        max-height: 603px; /* bottom: -156px; overflow-y: scroll;*/
+    }
+}
+
+
+.popupclse
+{
+    float: right;
+    margin-top: 7px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.popupcatheading
+{
+    border-bottom: 1px solid #6D696A;
+    color: rgb(1, 148, 168);
+}
+.popupcatheading h4
+{
+    margin-top: -6px;
+    margin-bottom: -2px;
+    font-size: medium;
+}
+@media (max-width: 767px) and (min-width:5px)
+{
+    .rowdesign
+{
+    min-height: 120px;
+  
+}
+}
+@media (max-width: 1370px) and (min-width:798px)
+{
+    .rowdesign
+{
+    min-height: 75px;
+  
+}
+}
+.rowdesign
+{
+    
+    border: 1px solid #D5D0D1;
+    background: #FFFFFF;
+    margin-top: -7px;
+    margin-bottom: -9px;
+}
+.rowdesign:hover
+{
+    cursor: pointer;
+   /* background: #DFD8D8;*/
+}
+.headerrowdesign
+{
+    min-height: 75px;
+    border: 1px solid #D5D0D1;
+    background: #0091A4;
+    margin-top: -7px;
+    margin-bottom: -9px;
+    color: #ffffff;
+    padding-top: 10px;
+}
+.divrow
+{
+    min-height: 60px;
+}
+.divrow:hover
+{
+    cursor: pointer;
+   /* background: #DFD8D8;*/
+}
+.rowadjus
+{
+    top: 13px;
+    left: -13px;
+}
+
+.btnadjus
+{
+    padding-top: 10px;
+}
+.customcollapse
+{
+    border: 1px solid #6D696A;
+    line-height: 3.0;
+}
+.collapsepadding
+{
+    padding-left: 0px;
+    padding-right: 0px;
+    top: 8px;
+    padding-bottom: 8px;
+}
+
+.collapsepadding_inner
+{
+    padding-left: 0px;
+    padding-right: 15px;
+    top: 18px;
+}
+.lblleftfloat
+{
+    float: left;
+    color: rgb(44, 110, 63);
+}
+.lblrightfloat
+{
+    float: right;
+}
+.error
+{
+    color: Red;
+}
+
+/*pbKYCVerify2.aspx*/
+
+
+/*pgSalesPersonActivity*/
+
+
+/*pgSalesPersonActivity*/

@@ -1,0 +1,922 @@
+html, body
+{
+    margin: 0pt;
+    border: 0pt;
+    width: 100%;
+    font-family: Calibri, Times New Roman;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: repeat;
+}
+
+.dropdownList
+{
+    margin: 0;
+    padding: 5px;
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    height: 30px;
+    color: #000000;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 11px;
+    width: 225px;
+}
+
+.dropdownListKYC
+{
+    margin: 0;
+    padding: 5px;
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    height: 30px;
+    color: #000000;
+    font-size: 11pt;
+    width: 225px;
+}
+
+.dropdownListSelected
+{
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #000;
+    background-color: #EFEFEF;
+    height: 30px;
+    color: #000000;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 11px;
+    width: 225px;
+}
+
+.dropdownListKYCSelected
+{
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #000;
+    background-color: #EFEFEF;
+    height: 30px;
+    color: #000000;
+    font-size: 11pt;
+    width: 225px;
+}
+
+a
+{
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #000;
+    text-decoration: underline;
+}
+.textBox
+{
+    margin: 0;
+    padding: 7px 7px 4px 7px;
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    height: 18px;
+    color: #000000;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 11px;
+    width: 210px;
+    vertical-align: middle;
+}
+
+.textBoxOTP
+{
+    margin: 0;
+    padding: 7px 7px 4px 7px;
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    height: 18px;
+    color: #000000;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 11px;
+    width: 100px;
+    vertical-align: middle;
+}
+
+.textBoxsmall
+{
+    margin: 0;
+    padding: 7px 7px 4px 7px;
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    height: 18px;
+    color: #000000;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 11px;
+    width: 140px;
+    vertical-align: middle;
+}
+
+.textBox:focus
+{
+    margin: 0;
+    padding: 7px 7px 4px 7px;
+    background: #FFF;
+    border: 1px solid #4D90FE;
+    color: #000000;
+    height: 18px;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 11px;
+    width: 210px;
+    vertical-align: middle;
+}
+
+
+.textBoxSelected
+{
+    margin: 0;
+    padding: 7px 7px 4px 7px;
+    border: 1px solid #000;
+    background-color: #EFEFEF;
+    color: #000000;
+    height: 18px;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 11px;
+    width: 210px;
+    vertical-align: middle;
+}
+
+
+.textBoxCal
+{
+    margin: 0;
+    padding: 5px 7px 4px 7px;
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    height: 18px;
+    color: #000000;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 11px;
+    width: 190px;
+}
+
+.textBoxCal:focus
+{
+    margin: 0;
+    padding: 5px 7px 4px 7px;
+    background: #FFF;
+    border: 1px solid #4D90FE;
+    color: #000000;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 11px;
+    width: 190px;
+}
+
+
+.breakLine
+{
+    border-bottom: 1px solid #E0E0E0;
+    text-shadow: 0 1px 0 rgba(5,3,5,.3); /* drop shadow */
+    -moz-box-shadow: 0 1px 0 #fff; /* drop shadow */
+    -webkit-box-shadow: 0 1px 0 #fff; /* drop shadow */
+    box-shadow: 0 1px 0 #fff; /* drop shadow */
+}
+
+img
+{
+    border: 0pt none;
+    margin: 0pt none;
+    vertical-align: middle;
+}
+
+
+.button
+{
+    cursor: pointer;
+    background-color: #0362FD;
+    border: 0pt none;
+    height: 31px;
+    font-weight: bold;
+    width: 120px;
+    color: #fff;
+}
+
+.buttonSmallPrint
+{
+    cursor: pointer;
+    background-color: #0362FD;
+    border: 0pt none;
+    height: 25px;
+    font-weight: bold;
+    width: 50px;
+    color: #fff;
+}
+
+.buttonPIN
+{
+    cursor: pointer;
+    background-color: #94B86E;
+    border: 0pt none;
+    height: 31px;
+    font-weight: bold;
+    width: 120px;
+    color: #fff;
+}
+
+.buttonSet
+{
+    cursor: pointer;
+    background-color: #0362FD;
+    border: 0pt none;
+    height: 31px;
+    font-weight: bold;
+    width: 100px;
+    color: #fff;
+}
+
+.buttonLogin
+{
+    cursor: pointer;
+    background-color: #0362FD;
+    border: 0pt none;
+    height: 31px;
+    font-weight: bold;
+    width: 80px;
+    color: #fff;
+}
+
+.buttonValidate
+{
+    cursor: pointer;
+    background-color: #0362FD;
+    border: 0pt none;
+    height: 31px;
+    font-weight: bold;
+    width: 150px;
+    color: #fff;
+}
+
+.buttonSmall
+{
+    cursor: pointer;
+    background-color: #0362FD;
+    border: 0pt none;
+    height: 31px;
+    text-align: center;
+    font-weight: bold;
+    width: 80px;
+    color: #fff;
+}
+
+.buttonbig
+{
+    cursor: pointer;
+    background-color: #0362FD;
+    border: 0pt none;
+    height: 50px;
+    font-weight: bold;
+    width: 120px;
+    color: #fff;
+}
+
+.buttonbigTwo
+{
+    cursor: pointer;
+    background-color: #0362FD;
+    border: 0pt none;
+    height: 31px;
+    font-weight: bold;
+    width: auto;
+    color: #fff;
+}
+
+.buttonbigTwoSFD
+{
+    cursor: pointer;
+    background-color: #F26823;
+    border: 0pt none;
+    height: 31px;
+    font-weight: bold;
+    width: auto;
+    color: #fff;
+}
+
+.buttonbigTwoTFD
+{
+    cursor: pointer;
+    background-color: #4DB74A;
+    border: 0pt none;
+    height: 31px;
+    font-weight: bold;
+    width: auto;
+    color: #fff;
+}
+
+.buttonbigTwoBFD
+{
+    cursor: pointer;
+    background-color: #C48734;
+    border: 0pt none;
+    height: 31px;
+    font-weight: bold;
+    width: auto;
+    color: #fff;
+}
+
+table.tblData
+{
+    border-right: 1px solid #E1E1E1;
+    border-bottom: 1px solid #E1E1E1;
+    border-spacing: 0px;
+}
+table.tblData th
+{
+    background-color: #fff;
+    border-left: 1px solid #E1E1E1;
+    border-top: 1px solid #E1E1E1;
+    text-align: left;
+    padding: 10px;
+}
+table.tblData td
+{
+    background-color: #fff;
+    border-left: 1px solid #E1E1E1;
+    border-top: 1px solid #E1E1E1;
+    padding: 10px;
+}
+
+table.NormalTable td
+{
+    text-align: left;
+}
+
+.boldReg
+{
+    font-weight: bold;
+    font-size: 15pt;
+    color: #52B4F6;
+}
+
+.boldRegtd
+{
+    color: #000;
+    font-family: 'Open Sans' , Arial, Calibri;
+}
+
+.alertRegMessage
+{
+    color: #000;
+    font-family: Verdana;
+    font-size: 10pt;
+    line-height: 1.5em;
+}
+
+.boldRegtopTd
+{
+    color: #6F7070;
+    font-size: 18pt;
+}
+
+.alertColor
+{
+    padding-left: 2px;
+    color: Red;
+}
+
+.Trainhideshow
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.Trainfade
+{
+    background-color: Black;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; /*--IE 8 Transparency--*/
+    left: 0;
+    z-index: 100002;
+}
+.Trainpopup_block
+{
+    float: left;
+    width: 100%;
+    position: fixed;
+    top: 40%;
+    left: 0%;
+    margin: 0 0 0 0;
+    z-index: 100003;
+    height: 100px;
+}
+.Trainpopup_block .popup
+{
+    float: left;
+    width: 100%;
+    background: #fff;
+    margin: 10px 0;
+    padding: 10px 0;
+    border: 1px solid #bbb;
+}
+
+.moneyHeader
+{
+    color: #35a947; /* text color */
+    font-size: 30pt;
+    font-weight: bold;
+    text-shadow: 0 1px 1px #02602e; /* drop shadow */
+}
+
+
+.gridHeaderClass
+{
+    height: 44px;
+    background-color: #FFF;
+    color: #217BC0;
+    font-size: 12pt;
+    width: 150px;
+    text-align: center;
+}
+
+.grdFooterStyle
+{
+    height: 34px;
+    line-height: 2.0em;
+    border: 1px solid #217BC0;
+    background-color: #FFF;
+    text-align: center;
+    color: #000;
+    width: 150px;
+}
+
+.grdRowStyle
+{
+    height: 34px;
+    background-color: #D0E5F5;
+    color: #000;
+    font-size: 9pt;
+    text-align: center;
+    width: 150px;
+}
+
+.grdAlternateRowStyle
+{
+    height: 34px;
+    background-color: #FFF;
+    text-align: center;
+    color: #000;
+    font-size: 9pt;
+}
+
+hr
+{
+    border: none;
+    background-color: #79B7E7;
+    color: #79B7E7;
+    height: 1px;
+}
+
+.textBoxLogin
+{
+    margin: 0;
+    padding: 7px 7px 4px 7px;
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    height: 18px;
+    color: #000000;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 11px;
+    width: 110px;
+    vertical-align: middle;
+}
+
+.textBoxLogin:focus
+{
+    margin: 0;
+    padding: 7px 7px 4px 7px;
+    background: #FFF;
+    border: 1px solid #4D90FE;
+    color: #000000;
+    height: 18px;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 11px;
+    width: 110px;
+    vertical-align: middle;
+}
+
+.cssTrick
+{
+    width: 60px;
+}
+
+.cssTrickLower
+{
+    width: 99px;
+}
+
+.ui-dialog-titlebar-close
+{
+    visibility: hidden;
+}
+
+.cash-in-disp
+{
+    display: none;
+}
+
+.cash-in-dispnone
+{
+    display: block;
+}
+
+.Click-Here
+{
+    background-color: #60AC57;
+    border: 1px solid #60AC57;
+    border-radius: 3px;
+    font-size: 10pt;
+    padding: 2px;
+    text-decoration: none;
+    margin: 10px 0px 10px 10px;
+    color: #fff !important;
+}
+
+.Click-Here-Terms
+{
+    background-color: #FFF;
+    border: 1px solid #000;
+    border-radius: 3px;
+    font-size: 10pt;
+    padding: 2px;
+    text-decoration: none;
+    margin: 10px 10px 10px 0px;
+    color: #000 !important;
+}
+
+.button-verify
+{
+    cursor: pointer;
+    background-color: #9BD01E;
+    border: 0pt none;
+    height: 31px;
+    font-weight: bold;
+    width: 160px;
+    color: #fff;
+}
+
+
+.textBoxlargeEKYC
+{
+    margin: 0;
+    padding: 7px 7px 4px 7px;
+    background: #FFF;
+    border: 1px solid #4D90FE;
+    color: #000000;
+    height: 18px;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 11px;
+    width: 335px;
+    vertical-align: middle;
+}
+
+.textBoxlargeEKYCDisabled
+{
+    margin: 0;
+    padding: 7px 7px 4px 7px;
+    border: 1px solid #000;
+    background-color: #EFEFEF;
+    color: #000000;
+    height: 18px;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 11px;
+    width: 335px;
+    vertical-align: middle;
+}
+
+.dropdownListEKYC
+{
+    margin: 0;
+    padding: 5px;
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    height: 30px;
+    color: #000000;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 11px;
+    width: 350px;
+}
+
+
+/* New Styles */
+/*
+#total-wrapper
+{
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 0 19px rgba(26, 26, 26, 0.1);
+    margin: 0 auto;
+    position: relative;
+}
+
+#vg-menu
+{
+    background-color: #1d9ce5;
+    font-weight: bold;
+    border-bottom: 2px solid #008DD0;
+}
+.tdMenubar
+{
+    background-color: #e7e7e7;
+    border-top: 1px solid #D5D5D5;
+    border-right: 1px solid #D5D5D5;
+    border-bottom: 1px solid #231F59;
+}
+#vg-menu
+{
+    padding: 0px;
+    margin: 0 0px 0px 0;
+    float: left;
+}
+#vg-menu li a
+{
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    display: block;
+    line-height: 20px;
+    padding: 7px 10px 7px 10px font-size: 1.2em;
+    text-decoration: none;
+    
+}
+#vg-menu li a:hover, #vg-menu li a.vg-menu-active, vg-menu li a span:hover
+{
+    color: #fff;
+    background-color: #2590d3;
+}
+*/
+.no_mrgn
+{
+    margin: 0 !important;
+    padding: 0 !impotant;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+
+.offer-wrap
+{
+    background: none repeat scroll 0 0 white;
+    border-radius: 1px;
+    box-shadow: 0 1px 3px 0 #b5b5b5;
+    margin: 10px;
+    padding: 5px;
+    margin-right: -15px;
+    position: relative;
+}
+.offer-content
+{
+    clear: both;
+    display: block;
+    margin-top: 10px;
+    overflow: hidden;
+    padding-bottom: 5px;
+    position: relative;
+}
+.offer-content p
+{
+    line-height: 17px;
+    margin-bottom: 10px;
+}
+.offer-header
+{
+    overflow: hidden;
+    position: relative;
+    font-weight: bold;
+    color: #F5821F;
+}
+.offer-avatar
+{
+    background: none repeat scroll 0 0 white;
+    box-shadow: 0 0 3px #b5b5b5;
+    float: left;
+    height: 30px;
+    margin: 0 10px 5px -25px;
+    overflow: hidden;
+    padding: 5px;
+    width: 30px;
+}
+
+/*Widget Box*/
+.myContainer
+{
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.myContainer .myContainer-title
+{
+    background: none repeat scroll 0 0 #f8f8f8;
+    border-bottom: 1px solid #e4e4e4;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 1px 0 0 rgba(255,255,255,1) inset;
+    color: #444;
+    padding: 10px;
+    position: relative;
+}
+
+.myContainer .myContainer-title a
+{
+    color: #000;
+}
+
+.myContainer .myContainer-title:before, .myContainer .myContainer-title:after
+{
+    content: " ";
+    display: table;
+}
+
+.myContainer .myContainer-title:after
+{
+    clear: both;
+}
+
+.myContainer .myContainer-title > i
+{
+    cursor: default;
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    margin: 0 10px 0 0;
+}
+
+.myContainer .myContainer-title h3
+{
+    color: #505050;
+    cursor: default;
+    display: inline-block;
+    float: left;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+.myContainer .myContainer-title a:not(.btn)
+{
+    color: #444;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.myContainer .myContainer-title > .myContainer-toolbar .dropdown-menu
+{
+    margin-top: -7px;
+    min-width: 60px !important;
+}
+
+.myContainer .myContainer-body
+{
+    border-radius: 0 0 3px 3px;
+    padding: 10px;
+}
+
+.myContainer .myContainer-body > table, .myContainer .myContainer-body > .table
+{
+    margin-bottom: 0;
+}
+
+.myContainer .myContainer-body.chart-responsive
+{
+    overflow: hidden;
+    width: 100%;
+}
+
+.myContainer .myContainer-body > .chart
+{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.myContainer-body .external-event
+{
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.myContainer-body #external-events .well
+{
+    margin: 10px 0 0;
+    padding: 10px;
+}
+
+.myContainer .myContainer-body .fc
+{
+    margin-top: 5px;
+}
+.main-content
+{
+    background: none repeat scroll 0 0 #fff;
+    margin: 0 auto 25px;
+    padding: 0 15px;
+    position: relative;
+}
+
+.main-content:after
+{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.sp_radio
+{
+    margin-left: 5px;
+}
+
+
+
+
+@media only screen and (max-width:640px)
+{
+
+    /*.table-res table{ display:-webkit-inline-block;vertical-align:top;}*/
+    .table-sh tbody
+    {
+        display: flex;
+        width: 100%;
+    }
+
+    .table-sh tr
+    {
+        display: inline-block;
+        overflow-wrap: break-word;
+    }
+
+    .table-sh th
+    {
+        display: block;
+        text-align: left;
+        height: 54px;
+    }
+
+    .table-sh td
+    {
+        display: flex;
+        text-align: left;
+        width: 132px;
+        height: 54px;
+    }
+
+    .table-sh tbody tr
+    {
+    }
+}
+
+@media only screen and (max-width:640px)
+{
+
+    /*.table-res table{ display:-webkit-inline-block;vertical-align:top;}*/
+    .table-res tbody
+    {
+        display: flex;
+        width: 100%;
+    }
+
+    .table-res tr
+    {
+        display: inline-block;
+        overflow-wrap: break-word;
+    }
+
+    .table-res th
+    {
+        display: block;
+        text-align: left;
+        height: auto !important;
+        font-weight: normal;
+    }
+
+    .table-res td
+    {
+        display: flex;
+        text-align: left;
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .table-res tbody tr
+    {
+    }
+}
+.nomargin
+{
+    margin:0;
+    padding :0;
+    }

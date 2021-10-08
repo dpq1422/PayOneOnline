@@ -1,0 +1,30 @@
+<?php
+	include('_common-admin.php');
+	include('_session-admin.php');
+	$query_log="update child_user_log set logout_date='$date_time', logout_time='$time_time' where user_id='$user_id' and log_id='$log_id';";
+	$result_log=mysql_query($query_log);
+	unset($_SESSION['user_id']);
+	unset($_SESSION['user_type']);
+	unset($_SESSION['user_type_name']);
+	unset($_SESSION['user_name']);
+	unset($_SESSION['contact_no']);
+	unset($_SESSION['wallet_balance']);
+	unset($_SESSION['h1no']);
+	unset($_SESSION['h1id']);
+	unset($_SESSION['h2no']);
+	unset($_SESSION['h2id']);
+	unset($_SESSION['h3no']);
+	unset($_SESSION['h3id']);
+	unset($_SESSION['logged_time1']);
+	unset($_SESSION['logged_time2']);
+	session_unset();
+	session_destroy();
+	session_write_close();	
+	$user_id="";
+	$user_type="";
+	$user_type_name="";
+	$user_name="";
+	$contact_no="";
+	$wallet_balance="";
+	header('location:index.php');
+?>

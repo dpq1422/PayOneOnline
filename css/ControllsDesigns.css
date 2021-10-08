@@ -1,0 +1,89 @@
+﻿.textboxdesign
+{
+    border-color: #E2DEDE;
+}
+.textboxdesign1
+{
+    border: 0px;
+}
+.groupboxbutton
+{
+    border: 1px solid #E2DEDE;
+    border-radius: 5px;
+}
+.btndesign
+{
+    background: #D71689;
+    color: #ffffff;
+}
+
+.btndesign:hover
+{
+    background: #E22F9A;
+    color: #ffffff;
+}
+.forgetPassrod
+{
+    text-align: right;
+}
+.forgetPassrod a
+{
+    color: #000000;
+    font-size: 13px;
+}
+.btnlogindesign
+{
+    height: 32px;
+    margin-right: 2px;
+    border-radius: 6px;
+    background: #D71689;
+    color: #ffffff;
+   
+}
+.btnlogindesign
+{
+    height: 32px;
+    margin-right: 1px;
+    border-radius: 6px;
+    background: #0091A4;
+    color: #ffffff;
+}
+.empty
+{
+    width: 100%;
+    height: 70px;
+    float: left;
+}
+.btnlogindesign:hover
+{
+    background: #0C9AAD;
+    color: #ffffff;
+}
+label
+{
+    font-weight: 100;
+}
+.h4border
+{
+    border-bottom: 1px solid #E4C4D5;
+}
+.spanRight
+{
+    float: right;
+    color: #0091a4;
+}
+.cssCardStatus
+{
+    text-align: center;
+    color: #0091A4;
+    margin-top: -8px;
+}
+.fuploadFormat
+{
+    color: #CDC6C6;
+    font-size: 13px;
+}
+.input-group-addon1
+{
+    padding: 0px;
+}
